@@ -1,0 +1,40 @@
+{
+  "name": "docker-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard for docker",
+  "main": "bin/dashboard.js",
+  "scripts": {
+    "test": "./bin/gulp"
+  },
+  "dependencies": {
+    "basic-auth": "^1.0.3",
+    "express": "^4.13.3",
+    "nconf": "^0.8.2",
+    "socket.io": "^1.3.7",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-tap": "^0.1.3",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drakeu/docker-dashboard.git"
+  },
+  "keywords": [
+    "dashboard",
+    "docker"
+  ],
+  "author": "drakeu",
+  "license": "GNU General Public License",
+  "bugs": {
+    "url": "https://github.com/drakeu/docker-dashboard/issues"
+  },
+  "homepage": "https://github.com/drakeu/docker-dashboard#readme"
+}

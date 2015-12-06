@@ -1,0 +1,10 @@
+{
+    "http-server": {
+        "port": 7070
+    },
+    "auth": {
+        "enabled": true,
+        "user": "monitor",
+        "password": "monitor"
+    }
+}
